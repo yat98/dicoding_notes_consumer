@@ -12,6 +12,13 @@
         "prefer-const" : "error",
         "require-await" : "error",
         "no-console": "off",
-        "require-jsdoc": "off"
+        "require-jsdoc": "off",
+        "no-underscore-dangle": "off",
+        "import/extensions": [
+            "error",
+            {
+                "js": "ignorePackages"
+            }
+        ]
     }
 }
